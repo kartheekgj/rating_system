@@ -1,4 +1,4 @@
-rating system portable
+ratingsystem_portable
 =====================
 
 This is a portable rating system created using php jquery mysql and css.

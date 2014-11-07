@@ -100,7 +100,6 @@ var rating = {
 				}
 				if(data.error === 1){
 					$('#message').html('<p class="bg-warning">'+ data.message +'</p>');
-					rating.reset();
 					return false;
 				}
 			},
