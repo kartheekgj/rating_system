@@ -1,13 +1,31 @@
+/******************************************************************************
+ 
+ * Description: The file is used to store the css of rating system
+ * Author: G Jayendra Kartheek
+ * Date Created: 06/11/2014
+ * Change Log:
+ * Version      Author              Date of Modification        Comment
+ * 1.0         G Jayendra Kartheek    06/11/2014                Page Created
+ ******************************************************************************/
+ 
 .rating {
-    background: url("images/star-matrix.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-    clear: both;
-    height: 16px;
-    list-style: outside none none;
-    margin: 0 0 20px;
-    padding: 0;
-    position: relative;
-    width: 80px;
+	width : auto;
+    float: left;
+	margin: 3px 3px;	
+	font-size: 30px;
+	
 }
-.nostar {
-    background-position: 0 0;
+.rating_holder{
+	width:100%;
+	float:left;
+	margin-left:10px;
+	top:10px;
+}
+.form-control{
+	margin: 10px 10px 10px 10px;
+}
+body{
+	margin-left:30%;
+	margin-top:2%;
+
 }
